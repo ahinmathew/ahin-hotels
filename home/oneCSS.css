@@ -1,0 +1,103 @@
+*{
+    z-index: 100;
+
+
+}
+
+
+ body {
+     background-image: url(../images/grass.jpg);
+     background-repeat: repeat;
+     background-attachment: fixed;
+     background-size: auto 100%;
+
+ }
+
+
+
+#logo{
+    z-index: 2;
+    position: relative;
+    width: 40px;
+    height: auto;
+    margin-top: -2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navigation{
+    z-index: 101 !important;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+
+}
+#mainwebsiteimage{
+    zoom: 90%;
+}
+
+.topblock{
+    width:100%;
+    height:30px;
+}
+
+.ttopblock{
+    width:100%;
+    height:60px;
+}
+
+.footer{
+
+
+    margin-top: 15px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+
+}
+
+#transparentBlack{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#transparentBlack1{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.navbar{
+    z-index: 101 !important;
+    margin-top: 12px;
+    border-radius: 20px;
+    margin-left: 13px;
+    margin-right: 13px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.transparentWhite{
+    background-color: rgba(255, 255, 255, 0.82) !important;
+}
+
+.gray{
+    background-color: rgb(16, 73, 31) !important;
+}
+
+.navbar1{
+    z-index: 101 !important;
+    margin-top: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.navbar2{
+    z-index: 101 !important;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: rgba(0, 0, 0, 0);
+}
